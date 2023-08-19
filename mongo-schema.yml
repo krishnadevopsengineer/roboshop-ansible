@@ -5,7 +5,7 @@
 
 - name: Install Mongodb Client
   ansible.builtin.yum:
-    name: install mongodb-org-shell
+    name: mongodb-org-shell
     state: installed
 
 - name: Load Schema
